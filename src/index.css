@@ -1,0 +1,94 @@
+body {
+    background-color: white;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content:flex-start;
+}
+.card {
+    width: 300px;
+    background-color: #eee;
+    border-radius: 5px;
+    color: #000;
+    border: 2px solid #000;
+    height: auto;
+    margin: 1rem;
+    padding: 0.5rem;
+    display:flex;
+    flex-direction: column;
+    align-content: baseline;
+}
+
+.card.checked {
+    background-color: #666;
+    color: #ddd;
+}
+
+.card>.title {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-bottom: 0rem;
+}
+
+.control.check {
+    justify-self: end;
+    align-self: flex-start;
+}
+
+.control {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    border: 1px solid #3D5AFE;
+    height: 1.5rem;
+}
+.control:focus-visible {
+    border: 2px solid #536DFE;
+}
+
+.btn {
+    border-radius: 7px;
+    border: 2px solid #3D5AFE;
+    width: auto;
+    min-width: 100px;
+    height: 2.5rem;
+    background-color: #536DFE;
+    color: #fff;
+}
+
+#search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#search>* {
+    margin: 0 1rem;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background: #fafafa;
+  border-bottom: 1px solid #ccc;
+  padding: 0 2rem;
+  height: 50px;
+  margin-bottom: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+a:link {
+    color: #3D5AFE;
+}
+a:visited {
+    color: #536DFE;
+}

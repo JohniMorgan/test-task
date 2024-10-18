@@ -1,0 +1,22 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "this is a solution for testing work",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html -p 8080"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "css",
+    "html",
+    "work"
+  ],
+  "author": "Evgeny Butov <esbutov@stud.etu.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "parcel-bundler": "^1.12.5"
+  }
+}
